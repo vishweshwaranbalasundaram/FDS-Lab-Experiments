@@ -1,0 +1,18 @@
+Structured Data:
+   ID     Name  Age
+0   1    Alice   25
+1   2      Bob   30
+2   3  Charlie   35
+
+Unstructured Data:
+This is an example of unstructured data. It can be a piece of text, an image, or a video file.
+
+Semi-structured Data:
+{
+    "ID": 1,
+    "Name": "Alice",
+    "Attributes": {
+        "Height": 165,
+        "Weight": 68
+    }
+}

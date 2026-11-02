@@ -1,0 +1,11 @@
+CustomerID,Rating,Hotel,FoodPreference,Bill,NoOfPax
+1,4.0,Ibis,Veg,1300.0,2.0
+2,5.0,LemonTree,Non-Veg,2000.0,3.0
+3,4.0,RedFox,Veg,1322.0,2.0
+4,-1.0,LemonTree,Veg,1234.0,2.0
+5,3.0,Ibis,Vegetarian,989.0,2.0
+6,3.0,Ibys,Non-Veg,1909.0,2.0
+7,4.0,RedFox,Vegetarian,1000.0,-1.0
+8,7.0,Ibis,Veg,1500.0,3.0
+9,5.0,Ibis,Veg,1322.0,2.0
+10,4.0,LemonTree,Non-Veg,1800.0,2.0

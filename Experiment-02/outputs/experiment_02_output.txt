@@ -1,0 +1,60 @@
+=======================================================
+EXPERIMENT 2: DATA PREPROCESSING AND VISUALIZATION
+=======================================================
+
+1. FIRST FIVE RECORDS
+        Date    Product  Sales  Quantity Region
+0 2023-01-01  Product A    200         4  North
+1 2023-02-01  Product B    150         3  South
+2 2023-03-01  Product A    220         5  North
+3 2023-04-01  Product C    300         6   East
+4 2023-05-01  Product B    180         4   West
+
+2. MISSING VALUES
+Date        0
+Product     0
+Sales       0
+Quantity    0
+Region      0
+dtype: int64
+
+3. DATA AFTER PREPROCESSING
+        Date    Product  Sales  Quantity Region
+0 2023-01-01  Product A    200         4  North
+1 2023-02-01  Product B    150         3  South
+2 2023-03-01  Product A    220         5  North
+3 2023-04-01  Product C    300         6   East
+4 2023-05-01  Product B    180         4   West
+
+4. SUMMARY STATISTICS
+                      Date       Sales   Quantity
+count                   16   16.000000  16.000000
+mean   2023-05-09 06:00:00  237.500000   5.375000
+min    2023-01-01 00:00:00  150.000000   3.000000
+25%    2023-01-15 18:00:00  187.500000   4.000000
+50%    2023-04-16 00:00:00  225.000000   5.500000
+75%    2023-08-08 18:00:00  302.500000   7.000000
+max    2023-12-01 00:00:00  340.000000   8.000000
+std                    NaN   64.031242   1.746425
+
+5. TOTAL SALES AND QUANTITY BY PRODUCT
+     Product  Sales  Quantity
+0  Product A   1350        33
+1  Product B    850        17
+2  Product C   1600        36
+
+6. SALES BY REGION AND PRODUCT
+Product  Product A  Product B  Product C
+Region                                  
+East             0          0       1600
+North         1350          0          0
+South            0        480          0
+West             0        370          0
+
+7. CORRELATION MATRIX
+             Sales  Quantity
+Sales     1.000000  0.944922
+Quantity  0.944922  1.000000
+
+8. GRAPHS GENERATED SUCCESSFULLY
+All experiment outputs saved.

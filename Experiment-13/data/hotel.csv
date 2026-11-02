@@ -1,0 +1,11 @@
+﻿CustomerID,Rating,Hotel,FoodPreference,Bill,NoOfPax
+1,4,Ibis,Veg,1300,2
+2,5,LemonTree,Non-Veg,2000,3
+3,,RedFox,Veg,1322,2
+4,-1,LemonTree,Veg,1234,2
+5,3,Ibis,Vegetarian,989,2
+6,3,Ibys,Non-Veg,1909,2
+7,4,RedFox,Vegetarian,1000,-1
+8,7,,Veg,1500,3
+9,5,Ibis,,,
+10,4,LemonTree,Non-Veg,1800,2
